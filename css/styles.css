@@ -48,7 +48,6 @@ a:hover {
     min-height: 100vh;
     display: flex;
     flex-flow: column;
-    align-items: space-between;
 }
 
 .header {
@@ -110,7 +109,7 @@ a:hover {
     letter-spacing: 4px;
     transition: all 0.5s ease-in-out;
     text-decoration: none;
-  }
+}
 
 
 .footer {
@@ -118,7 +117,12 @@ a:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: auto;
    
+}
+
+.footer__list {
+    padding: 20px;
 }
 
 .footer__list__item {
@@ -132,7 +136,11 @@ a:hover {
 }
 
 
-@media all and (min-width:810px) {
+@media all and (min-width:960px) {
+
+    .main__wrapper {
+        width: 80%;
+    }
 
     .main__nav__list {
         flex-flow: row;
